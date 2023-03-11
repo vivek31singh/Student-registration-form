@@ -39,7 +39,7 @@ body {
 
 @media (max-width:400px) {
  .container .title>img{
-    width: 8vw;
+    width: 10vw;
 
   }
 }
