@@ -40,6 +40,7 @@ body {
 @media (max-width:400px) {
  .container .title>img{
     width: 15vw;
+    height:5vh;
 
   }
 }
