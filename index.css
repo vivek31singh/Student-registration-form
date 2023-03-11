@@ -37,6 +37,11 @@ body {
   margin-left:px;
 }
 
+@media (max-width: 600px) {
+ .container .title>img{
+    width: 6vw;
+  }
+}
 .container .title::before {
   content: "";
   position: absolute;
