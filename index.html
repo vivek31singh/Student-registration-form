@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive | Student Form</title>
+    <link rel="stylesheet" href="./index.css" />
+    <script
+      src="https://kit.fontawesome.com/ed503f76b4.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="title">Registration</div>
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Full Name: </span>
+            <input type="text" placeholder="Enter your Username" required />
+          </div>
+
+          <div class="input-box">
+            <span class="details">Class: </span>
+            <input type="text" placeholder="Enter your Class" required />
+          </div>
+
+          <div class="input-box">
+            <span class="details">Roll No: </span>
+            <input type="number" placeholder="Enter your Roll No" required />
+          </div>
+
+          <div class="input-box">
+            <span class="details">Mobile No: </span>
+            <input type="number" placeholder="Enter your Mobile No" required />
+          </div>
+
+          <div class="input-box">
+            <span class="details">Email ID</span>
+            <input type="email" placeholder="Enter your Email ID" required />
+          </div>
+
+          <div class="input-box">
+            <span class="details">Password</span>
+            <input type="text" placeholder="Enter your Password" required />
+          </div>
+
+          <div class="gender-details">
+            <span class="gender-title">Gender</span><br />
+            <div class="radio_btn">
+              <div class="gender_options">
+                <input type="radio" name="gender" id="gender" />Male
+              </div>
+              <div class="gender_options">
+                <input type="radio" name="gender" id="gender" />Female
+              </div>
+              <div class="gender_options">
+                <input type="radio" name="gender" id="gender" />Perfer not to
+                say
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="button">
+          <input class="btn" type="submit" value="Register" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
