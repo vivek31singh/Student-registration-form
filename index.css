@@ -37,9 +37,10 @@ body {
   margin-left:px;
 }
 
-@media (max-width: 600px) {
+@media (max-width:400px) {
  .container .title>img{
-    width: 6vw;
+    width: 8vw;
+
   }
 }
 .container .title::before {
