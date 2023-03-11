@@ -14,7 +14,7 @@
 
   <body>
     <div class="container">
-      <div class="title">Registration</div>
+      <div class="title">Student Registration Form</div>
       <form action="#">
         <div class="user-details">
           <div class="input-box">
@@ -38,13 +38,18 @@
           </div>
 
           <div class="input-box">
-            <span class="details">Email ID</span>
+            <span class="details">Email ID: </span>
             <input type="email" placeholder="Enter your Email ID" required />
           </div>
 
           <div class="input-box">
-            <span class="details">Password</span>
+            <span class="details">Password: </span>
             <input type="text" placeholder="Enter your Password" required />
+          </div>
+
+          <div class="file">
+            <span class="details">Profile picture: </span>
+            <input type="file" class="file" required />
           </div>
 
           <div class="gender-details">
@@ -65,7 +70,16 @@
         </div>
 
         <div class="button">
-          <input class="btn" type="submit" value="Register" />
+          <div class="input">
+            <input class="btn" type="submit" value="Register" />
+          </div>
+          <div class="web_link">
+            <strong 
+              ><a class="link" href="https://www.sggscollege.ac.in/"
+                >for more info visit here..</a
+              ></strong
+            >
+          </div>
         </div>
       </form>
     </div>
