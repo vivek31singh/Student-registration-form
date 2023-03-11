@@ -124,8 +124,13 @@ form.user-details .input-box .details {
   }
 }
 
+.web_link{
+padding: 6.5px 0px;
+}
+
 .link{
  text-decoration: none;
+
 color:#9b59b6;
 cursor: pointer;
 }
